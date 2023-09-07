@@ -1,5 +1,7 @@
 ﻿namespace test_a;
-public class Class1
+public class ClassA
 {
-
+    public static void StaticMethod() { }
+    public void InstanceMethod() { }
+    public int AgeOfProperty { get; set; }
 }
