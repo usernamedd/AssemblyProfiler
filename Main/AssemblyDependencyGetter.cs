@@ -8,7 +8,7 @@ namespace MyAssemblyDependency
 
     public class AssemblyDependencyGetter
     {
-        public const string TagetDll = "ECOM.DIOS.Infrastructure.Communication.eBus.dll";
+        public static string TagetDll = "";
         public static void ShowInfo()
         {
             //Load the Assembly: Load the assembly you want to inspect using Mono.Cecil.

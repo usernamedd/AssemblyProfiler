@@ -11,6 +11,7 @@ internal class Program
     {
         try
         {
+            AssemblyDependencyGetter.TagetDll="test_b.dll";
             AssemblyDependencyGetter.ShowInfo();
         }
         catch (Exception ex)
